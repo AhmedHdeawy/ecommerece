@@ -1,0 +1,290 @@
+/* Start Main Rules */
+
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.empty_message{
+    font-size: 20px;
+    color: #0c19d0;
+    font-weight: bold;
+}
+
+h1{
+    color: #666;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+
+
+/* End Main Rules */
+
+
+/* Start Edit Navbar Bootstrap */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+.navbar-inverse .navbar-nav > .open >a,
+.navbar-inverse .navbar-nav > .open >a:focus,
+.navbar-inverse .navbar-nav > .open >a:hover
+{
+    background-color: #4aa3df;
+}
+
+.upper-bar{
+    padding:10px;
+    background-color: #FFF;
+}
+
+.upper-bar .img-user{
+    width: 40px;
+}
+
+.upper-bar .dropdown-user{
+    background-color: #1c60da;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.upper-bar .dropdown-user span{
+    color: #dedede;
+    font-weight: bold;
+}
+
+.upper-bar .dropdown-user span:hover{
+    color: #FFF;
+}
+
+.upper-bar ul {
+    background-color: #d0cfd0;
+}
+
+.upper-bar ul li{
+    transition: all 0.5s ease-in-out;
+}
+
+.upper-bar ul li a{
+    color: #1c60da;
+    font-weight: bold;
+}
+
+/* End Edit Navbar Bootstrap */
+
+
+/* Satrt Login */
+
+.login-page h1 span{
+    cursor: pointer;
+}
+.login-page .active{
+    color:#379820;
+}
+
+.login-page [data-class="login"].active{
+    color: #337ab7;
+}
+.login-page [data-class="signup"].active{
+    color: #5cb85c;
+}
+
+.login-page h1{
+    color: #c7c7c7;
+}
+
+.login-page .signup{
+    display: none;
+}
+
+.login-page form{
+    max-width: 300px;
+    margin:auto;
+}
+
+.login-page form input{
+    margin-bottom: 10px;
+}
+
+.input_control{
+    position: relative;
+}
+
+.astrisc{
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    color: #d60f0f;
+}
+
+.errors{
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.errors .list-group-item-warning{
+    border-left: 4px solid #dc0000;
+}
+/* End Login */
+
+
+/* Start Categories */
+
+.item_box{
+    position: relative;
+    height: 440px;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.item_box h1{
+    font-size: 20px;
+    margin: 0;
+    height:50px;
+}
+
+.item_box .price_tag{
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+    top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.item_box .caption .desc-item{
+    height: 60px;
+    margin: 5px 0;
+}
+
+/* End Categories */
+
+/* Start Profile Page */
+
+.information{
+    margin-top: 20px;
+}
+
+.information ul{
+    padding: 0;
+    margin: 0;
+}
+
+.information ul li{
+    padding:10px;
+}
+.information .list-group .list-group-item:nth-child(odd){
+    background-color: #EEE;
+}
+
+.information .list-group .list-group-item span{
+    display: inline-block;
+    width: 190px;
+}
+
+.thumbnail .date{
+    font-size: 14px;
+    text-align: left;
+    color: #AAA;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* End Profile Page */
+
+/* Start  New Ads*/
+
+.create-ads{
+    margin: 20px 0;
+}
+
+.create-ads .astrisc{
+    right:25px;
+}
+
+/* End New Ads */
+
+/* Start Items Page */
+.item-info h3{
+    padding:10px;
+    margin: 0;
+
+}
+
+.item-info p{
+    padding:10px;
+}
+
+.item-info ul li{
+    padding: 10px 10px;
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: #dedede;
+}
+
+.item-info ul li span{
+    display: inline-block;
+    width: 100px;
+}
+
+.item-comment textarea,
+.item-comment .btn{
+    margin-left: 5px;
+}
+
+.item-comment textarea{
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+
+.comment_box{
+    margin-bottom: 20px;
+}
+.comment_box .user_image img{
+    max-width: 60px;
+}
+
+.comment_box .user_comment p{
+    background-color: #EEE;
+    padding: 5px;
+    position: relative;
+    margin: 0;
+}
+
+.comment_box .user_comment p:before{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 8px;
+    left: -24px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent #bbb9b9 transparent transparent;
+}
+
+.comment_box .user_comment span{
+    padding: 5px;
+    color: #04999a;
+}
+
+.comment_box .user_image span{
+    color: blue;
+    font-weight: bold;
+}
+/* End Items Page */
+
+
+/* Global */
+
+hr{
+    border: 1px solid #aba5a5;
+}
